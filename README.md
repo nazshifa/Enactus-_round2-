@@ -1,2 +1,2 @@
-# Enactus-_round2-
-I have made it using html and css.
+# Enactus_Project_Round2
+ I have made this project using HTML, CSS

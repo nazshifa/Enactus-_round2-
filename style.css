@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("handsbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4; 
+    z-index: -1; 
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+#content {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    z-index: 1; 
+}
+
+#content h1 {
+    margin-top: 130px;
+    text-align:center;
+    font-family: Georgia;
+    font-size: 80px;;
+}
+
+#content ul li {
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: Garamond;
+    font-weight:700;
+    color: blue;
+}
+
+#content p {
+    font-size: 50px;
+    margin-top: 20px;
+    clear: both;
+}
+
+/* #content img {
+    height: 500px;
+    width: 1000px;
+    border: 2px solid red;
+} */
+
+#enac  {
+    color:#FFC222;
+    font-size: 50px;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.para {
+    font-size: 30px;
+    /* margin-top: 20px; */
+    /* clear: both; */
+    text-align: center;
+    font-family:'Goudy Old Style';
+    font-weight: 600;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#project div {
+    border: 4px solid black;
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 2px 2px rgb(192, 213, 255); */
+    /* transition: 0.4s ease-in-out; */
+}
+
+#agni {
+    margin: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(199, 160, 5, 0.46);
+    /* transition: 0.2s ease-in-out; */
+}
+
+/* #agni:hover {
+    box-shadow: 5px 5px 5px 5px rgba(199, 160, 5, 0.46);
+} */
+
+#clair {
+    margin: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(5, 134, 199, 0.46);
+    /* transition: 0.2s ease-in-out; */
+}
+ 
+/* #clair:hover {
+    box-shadow: 5px 5px 5px 5px rgba(5, 134, 199, 0.46);
+} */
+
+
+#urja {
+    margin: 25px;
+    box-shadow: 5px 5px 5px 5px green;
+
+    /* transition: 0.2s ease-in-out; */
+}
+
+/* #urja:hover {
+    box-shadow: 5px 5px 5px 5px green;
+} */
+
+#annotsav {
+    margin: 25px;
+    box-shadow: 5px 5px 5px 5px gray;
+    /* transition: 0.2s ease-in-out; */
+}
+
+/* #annotsav:hover {
+    box-shadow: 5px 5px 5px 5px gray;
+} */
+
+/* #project div:hover {
+    box-shadow: 5px 5px 5px 5px yellowgreen;
+} */
+
+#project h3 {
+    font-family:'papyrus';
+    font-size: 40px;
+    
+}
+
+#agni h3{
+    color:chocolate;
+}
+
+#clair h3 {
+    color: blue;
+}
+
+#urja h3 {
+    color: green;
+}
+
+#annotsav h3 {
+    color:black;
+}
+
+
+.contact {
+    margin-bottom: 200px;
+}
+
+.contact h3 {
+    font-family:'Gill Sans MT';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 50px;
+    text-decoration: double underline;
+    margin-bottom: 120px;
+}
+
+#logoimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.insta img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display:block;
+}
+
+.insta a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 100;
+    color: #BF00FF;
+}
+
+.facebook img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display:block;
+}
+
+.facebook a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 100;
+    color:blue;
+
+}
+
+
+
+.linkdin img {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    display:block;
+}
+
+.linkdin a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 100;
+    color:blue;
+}
+
+#contact {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#insta {
+    color: #BF00FF;
+}
+
+#Facebook {
+    color: blue;
+    
+}
+
+#Linkedin {
+    color:blue;
+}
+
+#above {
+    text-decoration: underline;
+}
+
+.main2 {
+    background-color:cadetblue;
+    
+    /* opacity: 0.3;
+    z-index: -1; */
+
+}
+
+/* .main2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.main2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    background-image: url("handsbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4; 
+    z-index: -1; 
+} */
